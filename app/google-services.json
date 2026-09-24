@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "972153792672",
+    "project_id": "com-nava-repfuel",
+    "storage_bucket": "com-nava-repfuel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972153792672:android:49a1735b475b2e287081c5",
+        "android_client_info": {
+          "package_name": "com.nava.repfuel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972153792672-d8a3ibn0flesv4o69cpt5png2v1lcf2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nava.repfuel",
+            "certificate_hash": "e5ea676da7609fcacdf9481de896afb4297c982d"
+          }
+        },
+        {
+          "client_id": "972153792672-9pirtgedlbqi3mhdimj3qqi91b7spokl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAduviMdUVR9SHWAf06EtHvUYjHolI1qVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972153792672-9pirtgedlbqi3mhdimj3qqi91b7spokl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
