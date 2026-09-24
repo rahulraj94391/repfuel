@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import com.nava.repfuel.MainActivity
 import com.nava.repfuel.R
 import com.nava.repfuel.data.auth.AuthRepository
-import com.nava.repfuel.ui.theme.RepFeulTheme
+import com.nava.repfuel.ui.theme.RepFuelTheme
 
 /**
  * Entry point of the app (see AndroidManifest). Owns the authentication flow only.
@@ -47,7 +47,7 @@ class AuthActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RepFeulTheme {
+            RepFuelTheme {
                 val authState by authViewModel.uiState.collectAsState()
 
                 LaunchedEffect(authState) {

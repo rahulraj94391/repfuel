@@ -26,7 +26,7 @@ import com.nava.repfuel.ui.auth.AuthActivity
 import com.nava.repfuel.ui.auth.AuthUiState
 import com.nava.repfuel.ui.auth.AuthViewModel
 import com.nava.repfuel.ui.auth.AuthViewModelFactory
-import com.nava.repfuel.ui.theme.RepFeulTheme
+import com.nava.repfuel.ui.theme.RepFuelTheme
 
 /**
  * The authenticated application. Holds no sign-in UI or provider-specific logic —
@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RepFeulTheme {
+            RepFuelTheme {
                 val authState by authViewModel.uiState.collectAsState()
 
                 LaunchedEffect(authState) {
@@ -102,7 +102,7 @@ fun HomeScreen(name: String, uid: String, onSignOutClick: () -> Unit, modifier: 
 @Preview(showBackground = true)
 @Composable
 fun HomeScreenPreview() {
-    RepFeulTheme {
+    RepFuelTheme {
         HomeScreen(name = "Android", uid = "preview-uid", onSignOutClick = {})
     }
 }

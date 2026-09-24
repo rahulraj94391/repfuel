@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RepFeul"
+rootProject.name = "RepFuel"
 include(":app")
